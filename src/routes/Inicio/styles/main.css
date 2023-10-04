@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nothing+You+Could+Do&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nothing+You+Could+Do&family=Open+Sans&display=swap");
+
+.main {
+  background-color: black;
+  background-image: url(https://i.im.ge/2023/10/04/NzXmmJ.Group-2-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contentMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 550px;
+  color: #fff;
+}
+.contentMain span {
+  color: #11a65f;
+  font-weight: bold;
+}
+
+.textTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.routeAbout a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #11a65f;
+}
+
+.routeAbout:hover {
+  transform: scale(1.03);
+  transition: all 100ms;
+}

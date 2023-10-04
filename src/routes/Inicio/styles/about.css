@@ -1,0 +1,56 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.aboutContent {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.sectionOne img {
+  width: 450px;
+}
+
+.aboutTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aboutTwo h2 {
+  font-size: 30px;
+}
+
+.aboutTwo p {
+  font-size: 18px;
+}
+
+.aboutTwo .routeSobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #11a65f;
+  color: #fff;
+}
+
+.aboutTwo .routeSobre:hover {
+  transform: scale(1.03);
+  transition: all 100ms;
+}
+
+.aboutTwo .routeSobre a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}

@@ -1,5 +1,5 @@
 nav {
-  background-color: #161616;
+  background-color: transparent;
   display: flex;
   justify-content: center;
 }
@@ -10,6 +10,7 @@ nav {
   width: 1400px;
   height: 100px;
   padding: 0 50px;
+  z-index: 1;
 }
 
 .navbar .logo {
@@ -26,6 +27,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
 .navigation ul {
@@ -75,6 +77,8 @@ nav {
   right: 0;
   width: 100%;
   font-size: 20px;
+  position: absolute;
+  z-index: 1000;
 }
 
 .open {
