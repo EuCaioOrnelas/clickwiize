@@ -1,0 +1,74 @@
+.depoimentos {
+  background-color: #fbfbfb;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.titleDepoimentos h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.depoimentosContent {
+  width: 1220px;
+  display: flex;
+  gap: 30px;
+}
+
+.depoimentosContent .cardDepoimento {
+  width: 320px;
+  height: 300px;
+  background-color: #fff;
+  padding: 40px 30px;
+  border: solid 1px #dfdfdf;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+}
+
+.cardDepoimento .sectionHeader {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.cardDepoimento .sectionHeader .imageDepoimento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardDepoimento .sectionHeader .sectionNome {
+  display: flex;
+  flex-direction: column;
+}
+.cardDepoimento .sectionHeader .sectionNome .nomeDepoimento {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: start;
+}
+
+.cardDepoimento .sectionHeader .sectionNome .nomeDepoimento h3 {
+  font-size: 20px;
+}
+
+.cardDepoimento .sectionHeader .sectionNome .nomeDepoimento img {
+  width: 30px;
+}
+.empresaDepoimento p {
+  font-size: 18px;
+}
+
+.textDepoimento {
+  margin: 20px 0;
+}
+
+.textDepoimento p {
+  font-size: 18px;
+}

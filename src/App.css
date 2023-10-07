@@ -1,3 +1,18 @@
 a {
   text-decoration: none;
 }
+
+/*Edição da Scrollbar*/
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #101014;
+}
+::-webkit-scrollbar-thumb {
+  background: #11a65f;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494949;
+  border-radius: 8px;
+}

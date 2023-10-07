@@ -5,10 +5,13 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./styles/main.css";
 import "./styles/about.css";
 import "./styles/valores.css";
+import "./styles/services.css";
+import "./styles/depoimentos.css";
 
 // ICONS //
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Faq from "../../components/Faq/Faq";
 
 export default function Inicio() {
   return (
@@ -77,7 +80,7 @@ export default function Inicio() {
             <div className="card">
               <div className="imageCard">
                 <img
-                  src="https://i.im.ge/2023/10/05/Nvr6v6.target-1-1.png"
+                  src="https://i.im.ge/2023/10/05/Nnndh0.alvo-1.png"
                   alt="Missão"
                 />
               </div>
@@ -91,7 +94,7 @@ export default function Inicio() {
             <div className="card">
               <div className="imageCard">
                 <img
-                  src="https://i.im.ge/2023/10/04/NpsDsh.online-marketing-1.png"
+                  src="https://i.im.ge/2023/10/05/NnN8GP.visualizacao.png"
                   alt="Visão"
                 />
               </div>
@@ -119,6 +122,146 @@ export default function Inicio() {
           </div>
         </div>
       </div>
+
+      {/* SECTION VALORES */}
+      <div className="sectionServices">
+        <div className="servicesContent">
+          <div className="titleServices">
+            <h2>
+              O que a <strong>Click Wiize</strong> vai fazer pelo seu negócio
+            </h2>
+          </div>
+          <div className="videoServices">
+            <iframe
+              src="https://www.youtube.com/embed/MaF7GB8X3Lo?si=anbRuJCyfmsixYB9&amp;controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="descriptVideo">
+            <p>
+              Para a Click Wiise, o marketing só faz sentido quando gera receita
+              para a sua empresa.
+              <br />
+              <br /> Por isso, o nosso foco não está em quantas pessoas
+              visualizam, curtem ou seguem a sua página.{" "}
+              <span>
+                O que realmente importa é quanto caixa você vai gerar.
+              </span>
+            </p>
+          </div>
+          <div className="buttonForm">
+            <a href="#">Fale com um especialista</a>
+            <AiOutlineArrowRight size={35} />
+          </div>
+        </div>
+      </div>
+
+      {/* SECTION DEPOIMENTOS */}
+      <div className="depoimentos">
+        <div className="titleDepoimentos">
+          <h2>O que estão dizendo sobre nós:</h2>
+        </div>
+        <div className="depoimentosContent">
+          {/* SECTION DEPOIMENTO 1 */}
+          <div className="cardDepoimento">
+            <div className="sectionHeader">
+              <div className="imageDepoimento">
+                <img
+                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  alt="Imagem do Depoimento"
+                />
+              </div>
+              <div className="sectionNome">
+                <div className="nomeDepoimento">
+                  <h3>Maicon Gilton</h3>
+                  <img
+                    src="https://i.im.ge/2023/10/06/PMWjYL.verificar-1.png"
+                    alt="verificado"
+                  />
+                </div>
+                <div className="empresaDepoimento">
+                  <p>AgendamentosPop</p>
+                </div>
+              </div>
+            </div>
+            <div className="textDepoimento">
+              <p>
+                Com 2 semanas em parceria com a click wiize eu bati +10 mil
+                novos usuarios em meu aplicativo, um crecimento 6x maior que o
+                normal, a click wiize fez exatamente o que prometia, me colocar
+                acima dos meus principais concorrentes.
+              </p>
+            </div>
+          </div>
+          {/* SECTION DEPOIMENTO 2 */}
+          <div className="cardDepoimento">
+            <div className="sectionHeader">
+              <div className="imageDepoimento">
+                <img
+                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  alt="Imagem do Depoimento"
+                />
+              </div>
+              <div className="sectionNome">
+                <div className="nomeDepoimento">
+                  <h3>Marcos Colombo</h3>
+                  <img
+                    src="https://i.im.ge/2023/10/06/PMWjYL.verificar-1.png"
+                    alt="verificado"
+                  />
+                </div>
+                <div className="empresaDepoimento">
+                  <p>Sonen Seguros</p>
+                </div>
+              </div>
+            </div>
+            <div className="textDepoimento">
+              <p>
+                Sem dúvidas alguma a melhor do mercado! já fechei parceria com
+                várias agências, e não deu certo, mas com a click wiize foi
+                diferente, nunca imaginei receber tantos leads como estou
+                recebendo agora, fiz a parceria com a agência certa.
+              </p>
+            </div>
+          </div>
+          {/* SECTION DEPOIMENTO 3 */}
+          <div className="cardDepoimento">
+            <div className="sectionHeader">
+              <div className="imageDepoimento">
+                <img
+                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  alt="Imagem do Depoimento"
+                />
+              </div>
+              <div className="sectionNome">
+                <div className="nomeDepoimento">
+                  <h3>Lisley Camili</h3>
+                  <img
+                    src="https://i.im.ge/2023/10/06/PMWjYL.verificar-1.png"
+                    alt="verificado"
+                  />
+                </div>
+                <div className="empresaDepoimento">
+                  <p>Lili Cayol</p>
+                </div>
+              </div>
+            </div>
+            <div className="textDepoimento">
+              <p>
+                Finalmente achei uma parceria de verdade, nunca imaginei que
+                vocês teriam tanta qualidade no atendimento aos parceiros, isso
+                fez muita diferença pra mim, além do serviço de qualidade, que
+                me trouxe um crescimento de 60% no meu faturamento anual.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Faq />
       <Footer />
     </>
   );

@@ -1,0 +1,66 @@
+.sectionServices {
+  margin: 50px 0;
+}
+
+.servicesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.titleServices h2 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  width: 500px;
+}
+
+.videoServices iframe {
+  width: 1000px;
+  height: 565px;
+  border: solid 3px #000;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+}
+
+.descriptVideo {
+  width: 1000px;
+  max-width: 1000px;
+}
+
+.descriptVideo p {
+  font-size: 18px;
+}
+
+.descriptVideo span {
+  color: #11a65f;
+  font-weight: bold;
+}
+
+.buttonForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 350px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #11a65f;
+  color: #fff;
+}
+
+.buttonForm a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.buttonForm:hover {
+  transform: scale(1.03);
+  transition: all 100ms;
+}
