@@ -27,7 +27,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
+  width: 1220px;
 }
 
 .cardBeneficios {
@@ -59,13 +60,14 @@
   justify-content: center;
   align-items: center;
   gap: 150px;
+  width: 1220px;
 }
 
 .descriptSection {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 700px;
+  width: 550px;
 }
 
 .titleEspecialista h3 {
@@ -77,7 +79,11 @@
   font-size: 18px;
 }
 
-.buttonEspecialista {
+.sectionCtaImg img {
+  width: 500px;
+}
+
+.buttonEspecialista a {
   display: flex;
   justify-content: center;
   align-items: center;
