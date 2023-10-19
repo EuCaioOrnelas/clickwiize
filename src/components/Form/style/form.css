@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nothing+You+Could+Do&family=Open+Sans&display=swap");
+
+.form {
+  background-color: #fff;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 1220px;
+}
+
+.titleForm h2 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  width: 700px;
+}
+
+.formContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.titleDescript {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 550px;
+}
+
+.titleDescript h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.titleDescript p {
+  font-size: 18px;
+}
+
+.cardForm {
+  padding: 40px 30px;
+  width: 500px;
+  border: solid 1px #dfdfdf;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.cardForm form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  height: 480px;
+  padding: 0px 10px;
+}
+
+.cardForm input {
+  background: #ffffff;
+  padding: 8px 15px;
+  border: solid 1px #dfdfdf;
+  border-radius: 8px;
+  outline: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cardForm input value {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cardForm input:focus {
+  border: 2px solid #11a65f;
+}
+
+.cardForm input::placeholder {
+  font-size: 15px;
+}
+
+.cardForm button {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #11a65f;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cardForm button:hover {
+  transform: scale(1.01);
+  transition: all 100ms;
+}

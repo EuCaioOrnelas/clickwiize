@@ -81,7 +81,7 @@ export default function Faq() {
           </details>
 
           <details>
-            <summary>O preço da V4 não é muito alto?</summary>
+            <summary>O preço da Click Wiize não é muito alto?</summary>
             <p>
               Qual é o preço do seu sucesso? Quanto dinheiro você precisaria
               investir para fazer com que sua empresa se tornasse a maior do seu
@@ -111,22 +111,6 @@ export default function Faq() {
               do squad que vai te atender, você pode solicitar consultorias
               estratégicas para que você mesmo consiga tomar decisões melhores
               dentro do seu negócio
-            </p>
-          </details>
-
-          <details>
-            <summary>O preço da V4 não é muito alto?</summary>
-            <p>
-              Qual é o preço do seu sucesso? Quanto dinheiro você precisaria
-              investir para fazer com que sua empresa se tornasse a maior do seu
-              setor? O preço que você paga por adiar o seu crescimento pode ser
-              tornar absurdamente maior do que aquele que você deixou de
-              investir no momento que a melhor oportunidade de crescer bateu na
-              sua porta. <br />
-              <br />
-              Outro ponto importante é que o plano da Click Wiize também pode se
-              adaptar ao seu contexto atual, permitindo, portanto, que você
-              invista a quantia exata que seu negócio suporta no momento atual.
             </p>
           </details>
         </section>

@@ -20,7 +20,6 @@
 .videoServices iframe {
   width: 1000px;
   height: 565px;
-  border: solid 3px #000;
   border-radius: 8px;
   -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
@@ -33,7 +32,7 @@
 }
 
 .descriptVideo p {
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .descriptVideo span {
@@ -61,6 +60,6 @@
 }
 
 .buttonForm:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
   transition: all 100ms;
 }

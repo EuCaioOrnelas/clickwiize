@@ -1,0 +1,102 @@
+.beneficios {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+}
+
+.titleBeneficios h2 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  width: 700px;
+}
+
+.beneficiosSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1220px;
+}
+
+/* CARD SECTION STYLE */
+.sectionCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cardBeneficios {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 320px;
+  height: 250px;
+  background-color: #fff;
+  padding: 30px 30px;
+  border: solid 1px #dfdfdf;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.titleBeneficios h3 {
+  font-size: 22px;
+}
+.descriptBeneficios p {
+  font-size: 18px;
+}
+
+/* ESPECIALISTA SECTION STYLE */
+
+.sectionEspecialista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.descriptSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 700px;
+}
+
+.titleEspecialista h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.descriptEspecialista {
+  font-size: 18px;
+}
+
+.buttonEspecialista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 350px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #11a65f;
+  color: #fff;
+}
+
+.buttonEspecialista a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.buttonEspecialista:hover {
+  transform: scale(1.01);
+  transition: all 100ms;
+}

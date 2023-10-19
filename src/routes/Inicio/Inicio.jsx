@@ -1,5 +1,8 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Faq from "../../components/Faq/Faq";
+import Form from "../../components/Form/Form";
+import Beneficios from "../../components/Beneficios/Beneficios";
 
 // CSS STYLES //
 import "./styles/main.css";
@@ -11,7 +14,6 @@ import "./styles/depoimentos.css";
 // ICONS //
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Faq from "../../components/Faq/Faq";
 
 export default function Inicio() {
   return (
@@ -54,10 +56,15 @@ export default function Inicio() {
           <div className="aboutTwo">
             <h2>Quem Somos</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              A <strong>click wiize</strong> foi criada em outubro de 2023, por{" "}
+              Caio Ornelas, com um <strong>único objetivo,</strong> ajudar
+              empresas a resolver seus problemas, com um{" "}
+              <strong>
+                marketing que gera resultados acima da média dos seus
+                concorrentes,
+              </strong>{" "}
+              resultando em aumento significativo no: faturamento, vendas,
+              lucro, EBITDA, ROI, e nos <strong>seus resultados anuais.</strong>
             </p>
             <div className="routeSobre">
               <a href="#">Saiba mais</a>
@@ -86,9 +93,9 @@ export default function Inicio() {
               </div>
               <h3>Missão</h3>
               <p>
-                Gerir negócios pautados na gestão humanizada e transformar a
-                vida das pessoas por meio dos serviços, produtos, oportunidades
-                e experiências oferecidas.
+                Nossa missão é encontrar e entender problemas presentes na sua
+                empresa, e resolve-los com um marketing que gera soluções e
+                resultados acima da média no seu négocio.
               </p>
             </div>
             <div className="card">
@@ -100,9 +107,9 @@ export default function Inicio() {
               </div>
               <h3>Visão</h3>
               <p>
-                Ser reconhecido como um dos maiores grupos empresariais do
-                Brasil por sua excelência em gestão de empresas, negócios,
-                pessoas e impacto na sociedade em que atuamos.
+                Ser reconhecida como uma das maiores agência de marketing do
+                Brasil por sua excelência em gestão de tráfego, negócios,
+                pessoas e impacto nos nichos em que atuamos.
               </p>
             </div>
             <div className="card">
@@ -115,15 +122,15 @@ export default function Inicio() {
               <h3>Valores</h3>
               <p>
                 Crescemos! Mas sempre mantemos como base valores sólidos e
-                inegociáveis: Trabalho duro, Respeito, Overdeliver, Honestidade,
-                Gestão humanizada e Consistência.
+                inegociáveis: trabalho duro, respeito, overdeliver, honestidade,
+                gestão humanizada e consistência.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* SECTION VALORES */}
+      {/* SECTION SERVICES */}
       <div className="sectionServices">
         <div className="servicesContent">
           <div className="titleServices">
@@ -133,9 +140,10 @@ export default function Inicio() {
           </div>
           <div className="videoServices">
             <iframe
-              src="https://www.youtube.com/embed/MaF7GB8X3Lo?si=anbRuJCyfmsixYB9&amp;controls=0"
+              src="https://www.youtube-nocookie.com/embed/MaF7GB8X3Lo?si=b28bQK-DwCyxu9aP&amp;controls=0"
               title="YouTube video player"
               frameborder="0"
+              poster=""
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
@@ -159,6 +167,12 @@ export default function Inicio() {
         </div>
       </div>
 
+      {/* SECTION BENEFICIOS */}
+      <Beneficios />
+
+      {/* SECTION FORMULARIO */}
+      <Form />
+
       {/* SECTION DEPOIMENTOS */}
       <div className="depoimentos">
         <div className="titleDepoimentos">
@@ -170,7 +184,7 @@ export default function Inicio() {
             <div className="sectionHeader">
               <div className="imageDepoimento">
                 <img
-                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  src="https://i.im.ge/2023/10/07/PusijD.Design-sem-nome-5.png"
                   alt="Imagem do Depoimento"
                 />
               </div>
@@ -189,10 +203,10 @@ export default function Inicio() {
             </div>
             <div className="textDepoimento">
               <p>
-                Com 2 semanas em parceria com a click wiize eu bati +10 mil
-                novos usuarios em meu aplicativo, um crecimento 6x maior que o
-                normal, a click wiize fez exatamente o que prometia, me colocar
-                acima dos meus principais concorrentes.
+                Com 2 semanas em parceria com a click wiize eu bati +1 mil novos
+                usuarios em meu aplicativo, um crecimento 6x maior que o normal,
+                a click wiize fez exatamente o que prometia, me colocar acima
+                dos meus principais concorrentes.
               </p>
             </div>
           </div>
@@ -201,7 +215,7 @@ export default function Inicio() {
             <div className="sectionHeader">
               <div className="imageDepoimento">
                 <img
-                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  src="https://i.im.ge/2023/10/07/Puss39.Design-sem-nome-4.png"
                   alt="Imagem do Depoimento"
                 />
               </div>
@@ -232,7 +246,7 @@ export default function Inicio() {
             <div className="sectionHeader">
               <div className="imageDepoimento">
                 <img
-                  src="https://i.im.ge/2023/10/06/PMW6sx.Ellipse-7.png"
+                  src="https://i.im.ge/2023/10/07/PusrPJ.Design-sem-nome-3.png"
                   alt="Imagem do Depoimento"
                 />
               </div>
@@ -254,7 +268,7 @@ export default function Inicio() {
                 Finalmente achei uma parceria de verdade, nunca imaginei que
                 vocês teriam tanta qualidade no atendimento aos parceiros, isso
                 fez muita diferença pra mim, além do serviço de qualidade, que
-                me trouxe um crescimento de 60% no meu faturamento anual.
+                me trouxe um crescimento de 30% no meu faturamento anual.
               </p>
             </div>
           </div>

@@ -12,7 +12,6 @@
 
 .sectionValores .valoresTitle h2 {
   font-size: 40px;
-  letter-spacing: 2px;
 }
 
 .sectionValores .valoresSubtitle {
@@ -32,9 +31,9 @@
   padding: 30px 30px;
   border: solid 1px #dfdfdf;
   border-radius: 8px;
-  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card .imageCard {
