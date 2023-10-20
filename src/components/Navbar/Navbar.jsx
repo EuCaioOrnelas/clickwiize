@@ -27,13 +27,13 @@ export default function Navbar() {
                 <a href="">Inicio</a>
               </li>
               <li>
-                <a href="">Serviços</a>
+                <a href="#servicos">Serviços</a>
               </li>
               <li>
-                <a href="">Sobre Nós</a>
+                <a href="#about">Sobre Nós</a>
               </li>
               <li>
-                <a href="">Fale Conosco</a>
+                <a href="#contato">Fale Conosco</a>
               </li>
             </ul>
           </div>

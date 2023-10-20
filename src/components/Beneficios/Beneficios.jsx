@@ -87,12 +87,12 @@ export default function Beneficios() {
               </div>
               <div className="descriptEspecialista">
                 <p>
-                  Agende agora mesmo uma consultoria <strong>GRATUITA</strong>{" "}
-                  com um de nossos especialistas, vamos analisar e entender seu
-                  négocio atual, para encontrar soluções para os seus problemas,
-                  resultando em menos dor de cabeça para você, e mais
-                  tranquilidade no seu négocio, assim aumentando seus resultados
-                  com facilidade.
+                  <strong>Agende</strong> agora mesmo uma{" "}
+                  <strong>consultoria GRATUITA</strong> com um de nossos
+                  especialistas, vamos analisar e entender seu négocio atual,
+                  para encontrar soluções para os seus problemas, resultando em
+                  menos dor de cabeça para você, e mais tranquilidade no seu
+                  négocio, assim aumentando seus resultados com facilidade.
                 </p>
               </div>
               <div className="buttonEspecialista">

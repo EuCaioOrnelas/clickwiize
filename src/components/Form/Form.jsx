@@ -3,7 +3,7 @@ import "./style/form.css";
 
 export default function Form() {
   return (
-    <div className="form">
+    <div className="form" id="contato">
       <div className="titleForm">
         <h2>
           Quer vender mais? Receba agora uma{" "}

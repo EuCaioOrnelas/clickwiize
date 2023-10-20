@@ -45,7 +45,7 @@ export default function Inicio() {
       </div>
 
       {/* SECTION ABOUT */}
-      <div className="about">
+      <div className="about" id="about">
         <div className="aboutContent">
           <div className="sectionOne">
             <img
@@ -131,7 +131,7 @@ export default function Inicio() {
       </div>
 
       {/* SECTION SERVICES */}
-      <div className="sectionServices">
+      <div className="sectionServices" id="servicos">
         <div className="servicesContent">
           <div className="titleServices">
             <h2>
