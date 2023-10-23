@@ -54,3 +54,27 @@
   transform: scale(1.03);
   transition: all 100ms;
 }
+
+@media (max-width: 780px) {
+  .main {
+    padding: 0 50px;
+  }
+
+  .contentMain {
+    height: 450px;
+  }
+
+  .textTitle p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .routeAbout a {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}

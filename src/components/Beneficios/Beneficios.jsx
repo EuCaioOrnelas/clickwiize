@@ -9,8 +9,7 @@ export default function Beneficios() {
     <div className="beneficios">
       <div className="titleBeneficios">
         <h2>
-          Com a <strong>Click Wiize</strong> seu negócio cresce muito mais
-          rápido
+          Com a <strong>ClickWiize</strong> seu negócio cresce muito mais rápido
         </h2>
       </div>
       <div className="beneficiosSection">
@@ -28,7 +27,7 @@ export default function Beneficios() {
             </div>
             <div className="descriptBeneficios">
               <p>
-                Na click wiize, trabalhamos para aumentar seu ROI (Retorno sobre
+                Na ClickWiize, trabalhamos para aumentar seu ROI (Retorno sobre
                 investimento). Para você parar de perder dinheiro com erros, que
                 só geram dor de cabeça.
               </p>

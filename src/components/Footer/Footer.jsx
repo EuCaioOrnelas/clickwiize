@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
           <div className="sectionTwo">
             <p>
-              2024 © Click Wiize. Todos os direitos reservados. Políticas de
+              2024 © ClickWiize. Todos os direitos reservados. Políticas de
               privacidade
             </p>
           </div>

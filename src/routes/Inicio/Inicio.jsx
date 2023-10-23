@@ -56,7 +56,7 @@ export default function Inicio() {
           <div className="aboutTwo">
             <h2>Quem Somos</h2>
             <p>
-              A <strong>click wiize</strong> foi criada em outubro de 2023, por{" "}
+              A <strong>ClickWiize</strong> foi criada em outubro de 2023, por{" "}
               Caio Ornelas, com um <strong>único objetivo,</strong> ajudar
               empresas a resolver seus problemas, com um{" "}
               <strong>
@@ -135,7 +135,7 @@ export default function Inicio() {
         <div className="servicesContent">
           <div className="titleServices">
             <h2>
-              O que a <strong>Click Wiize</strong> vai fazer pelo seu negócio
+              O que a <strong>ClickWiize</strong> vai fazer pelo seu negócio
             </h2>
           </div>
           <div className="videoServices">
@@ -150,7 +150,7 @@ export default function Inicio() {
           </div>
           <div className="descriptVideo">
             <p>
-              Para a Click Wiise, o marketing só faz sentido quando gera receita
+              Para a ClickWiize, o marketing só faz sentido quando gera receita
               para a sua empresa.
               <br />
               <br /> Por isso, o nosso foco não está em quantas pessoas
@@ -203,7 +203,7 @@ export default function Inicio() {
             </div>
             <div className="textDepoimento">
               <p>
-                Com 2 semanas em parceria com a click wiize eu bati +1 mil novos
+                Com 2 semanas em parceria com a ClickWiize eu bati +1 mil novos
                 usuarios em meu aplicativo, um crecimento 6x maior que o normal,
                 a click wiize fez exatamente o que prometia, me colocar acima
                 dos meus principais concorrentes.

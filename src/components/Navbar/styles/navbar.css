@@ -1,13 +1,13 @@
 nav {
-  background-color: transparent;
   display: flex;
   justify-content: center;
 }
 
 .navbar {
   display: flex;
+  background-color: transparent;
+  width: 100%;
   justify-content: space-between;
-  width: 1400px;
   height: 100px;
   padding: 0 50px;
   z-index: 1;
@@ -131,9 +131,15 @@ nav {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 780px) {
   .navbar .logo img {
     width: 250px;
+  }
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
   }
 }
 

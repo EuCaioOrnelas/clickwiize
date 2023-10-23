@@ -80,3 +80,49 @@
 .textDepoimento p {
   font-size: 18px;
 }
+
+@media (max-width: 780px) {
+  .depoimentos {
+    padding: 30px 50px;
+    gap: 30px;
+  }
+
+  .titleDepoimentos h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .depoimentosContent {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .depoimentosContent .cardDepoimento {
+    width: 500px;
+    height: 260px;
+    background-color: #fff;
+    padding: 40px 30px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento h3 {
+    font-size: 20px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento img {
+    width: 30px;
+  }
+  .empresaDepoimento p {
+    font-size: 20px;
+  }
+
+  .textDepoimento {
+    margin: 20px 0;
+  }
+
+  .textDepoimento p {
+    font-size: 20px;
+  }
+}

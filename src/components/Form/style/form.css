@@ -114,3 +114,70 @@
   transform: scale(1.01);
   transition: all 100ms;
 }
+
+@media (max-width: 780px) {
+  .form {
+    padding: 50px 50px;
+    gap: 0px;
+  }
+
+  .formSection {
+    gap: 0px;
+    width: 100%;
+  }
+
+  .titleForm h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .formContent {
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .titleDescript {
+    margin: 30px 0 50px 0;
+    gap: 0px;
+    max-width: 100%;
+  }
+
+  .titleDescript h3 {
+    display: none;
+  }
+
+  .titleDescript p {
+    font-size: 20px;
+  }
+
+  .cardForm {
+    padding: 40px 30px;
+    width: 500px;
+  }
+
+  .cardForm form {
+    gap: 25px;
+    height: 600px;
+    padding: 0px 10px;
+  }
+
+  .cardForm input {
+    padding: 15px 15px;
+    font-size: 18px;
+  }
+
+  .cardForm input:focus {
+    border: 2px solid #11a65f;
+  }
+
+  .cardForm input::placeholder {
+    font-size: 18px;
+  }
+
+  .cardForm button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 18px;
+  }
+}

@@ -56,15 +56,15 @@ footer {
   .footer {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 100%;
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 780px) {
   .footer {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
   }
   .sectionOne {
     display: flex;
@@ -87,7 +87,7 @@ footer {
   .footer {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 100%;
   }
   .sectionOne {
     display: flex;
