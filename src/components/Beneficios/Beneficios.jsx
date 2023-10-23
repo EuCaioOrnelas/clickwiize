@@ -97,7 +97,7 @@ export default function Beneficios() {
               <div className="buttonEspecialista">
                 <a href="#">
                   <span>Fale com Especialista</span>
-                  <AiOutlineArrowRight size={30} />
+                  <AiOutlineArrowRight className="icons" />
                 </a>
               </div>
             </div>

@@ -113,7 +113,7 @@
   }
 
   .titleBeneficios h2 {
-    font-size: 35px;
+    font-size: 32px;
     width: 600px;
   }
 
@@ -123,7 +123,7 @@
 
   /* CARD SECTION STYLE */
   .sectionCard {
-    gap: 30px;
+    gap: 40px;
     width: 100%;
   }
 
@@ -135,10 +135,10 @@
   }
 
   .titleBeneficios h3 {
-    font-size: 22px;
+    font-size: 23px;
   }
   .descriptBeneficios p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /* ESPECIALISTA SECTION STYLE */
@@ -146,7 +146,7 @@
   .sectionEspecialista {
     padding: 20px 50px 30px 50px;
     gap: 0px;
-    width: 700px;
+    width: 100%;
   }
 
   .descriptSection {
@@ -155,15 +155,18 @@
   }
 
   .titleEspecialista h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .descriptEspecialista {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .sectionCtaImg img {
     display: none;
+  }
+  .buttonEspecialista a {
+    font-size: 20px;
   }
 }
 
@@ -224,5 +227,67 @@
 
   .sectionCtaImg img {
     display: none;
+  }
+}
+@media (max-width: 630px) {
+  .beneficios {
+    padding: 30px 50px;
+  }
+
+  .titleBeneficios h2 {
+    font-size: 27px;
+    width: 100%;
+  }
+
+  .beneficiosSection {
+    width: 100%;
+  }
+
+  /* CARD SECTION STYLE */
+  .sectionCard {
+    gap: 40px;
+    width: 100%;
+  }
+
+  .cardBeneficios {
+    gap: 5px;
+    width: 350px;
+    height: 200px;
+    padding: 30px 30px;
+  }
+
+  .titleBeneficios h3 {
+    font-size: 22px;
+  }
+  .descriptBeneficios p {
+    font-size: 16px;
+  }
+
+  /* ESPECIALISTA SECTION STYLE */
+
+  .sectionEspecialista {
+    padding: 20px 50px 30px 50px;
+    gap: 0px;
+    width: 100%;
+  }
+
+  .descriptSection {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .titleEspecialista h3 {
+    font-size: 25px;
+  }
+
+  .descriptEspecialista {
+    font-size: 16px;
+  }
+
+  .sectionCtaImg img {
+    display: none;
+  }
+  .buttonEspecialista a {
+    font-size: 18px;
   }
 }

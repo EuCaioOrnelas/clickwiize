@@ -68,7 +68,7 @@ export default function Inicio() {
             </p>
             <div className="routeSobre">
               <a href="#">Saiba mais</a>
-              <AiOutlineArrowRight size={30} />
+              <AiOutlineArrowRight className="icons" />
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function Inicio() {
           </div>
           <div className="buttonForm">
             <a href="#">Fale com um especialista</a>
-            <AiOutlineArrowRight size={35} />
+            <AiOutlineArrowRight className="icons" />
           </div>
         </div>
       </div>

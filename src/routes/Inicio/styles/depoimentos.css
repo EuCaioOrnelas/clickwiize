@@ -88,7 +88,7 @@
   }
 
   .titleDepoimentos h2 {
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
   }
 
@@ -102,20 +102,20 @@
 
   .depoimentosContent .cardDepoimento {
     width: 500px;
-    height: 260px;
+    height: 240px;
     background-color: #fff;
     padding: 40px 30px;
   }
 
   .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento h3 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento img {
     width: 30px;
   }
   .empresaDepoimento p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .textDepoimento {
@@ -123,6 +123,52 @@
   }
 
   .textDepoimento p {
-    font-size: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 630px) {
+  .depoimentos {
+    padding: 30px 50px;
+    gap: 30px;
+  }
+
+  .titleDepoimentos h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .depoimentosContent {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .depoimentosContent .cardDepoimento {
+    width: 350px;
+    height: 235px;
+    background-color: #fff;
+    padding: 40px 30px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento h3 {
+    font-size: 22px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento img {
+    width: 30px;
+  }
+  .empresaDepoimento p {
+    font-size: 18px;
+  }
+
+  .textDepoimento {
+    margin: 20px 0;
+  }
+
+  .textDepoimento p {
+    font-size: 16px;
   }
 }

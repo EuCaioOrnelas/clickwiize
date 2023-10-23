@@ -62,22 +62,49 @@
   }
 
   .sectionCard {
-    gap: 60px;
+    gap: 40px;
     margin: 40px 50px;
     flex-direction: column;
   }
 
   .card {
     width: 500px;
-    height: 300px;
+    height: 270px;
     padding: 30px 30px;
   }
 
-  .valoresTitle h2 {
-    font-size: 35px;
+  .sectionValores .valoresTitle h2 {
+    font-size: 32px;
   }
-  .valoresSubtitle {
-    font-size: 20px;
+  .sectionValores .valoresSubtitle {
+    font-size: 18px;
+  }
+
+  .card .imageCard img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card h3 {
+    font-size: 23px;
+    margin: 10px 0;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 700px) {
+  .sectionCard {
+    gap: 40px;
+    padding: 40px 50px;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 400px;
+    height: 300px;
+    padding: 30px 30px;
   }
 
   .card .imageCard img {
@@ -94,24 +121,29 @@
     font-size: 20px;
   }
 }
-@media (max-width: 700px) {
+
+@media (max-width: 630px) {
+  .sectionValores {
+    padding: 30px 50px;
+  }
+
   .sectionCard {
     gap: 40px;
-    padding: 40px 50px;
+    margin: 40px 50px;
     flex-direction: column;
   }
 
   .card {
-    width: 400px;
-    height: 310px;
+    width: 350px;
+    height: 280px;
     padding: 30px 30px;
   }
 
-  .valoresTitle h2 {
-    font-size: 35px;
+  .sectionValores .valoresTitle h2 {
+    font-size: 27px;
   }
-  .valoresSubtitle {
-    font-size: 20px;
+  .sectionValores .valoresSubtitle {
+    font-size: 17px;
   }
 
   .card .imageCard img {
@@ -120,11 +152,11 @@
   }
 
   .card h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin: 10px 0;
   }
 
   .card p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
