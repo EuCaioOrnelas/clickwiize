@@ -144,6 +144,7 @@
   }
   .sectionValores .valoresSubtitle {
     font-size: 17px;
+    text-align: center;
   }
 
   .card .imageCard img {
@@ -158,5 +159,45 @@
 
   .card p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .sectionValores {
+    padding: 30px 50px;
+  }
+
+  .sectionCard {
+    gap: 40px;
+    margin: 40px 50px;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 200px;
+    height: 280px;
+    padding: 30px 30px;
+  }
+
+  .sectionValores .valoresTitle h2 {
+    font-size: 23px;
+  }
+  .sectionValores .valoresSubtitle {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .card .imageCard img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .card p {
+    font-size: 14px;
   }
 }

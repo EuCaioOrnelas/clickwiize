@@ -172,3 +172,49 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 520px) {
+  .depoimentos {
+    padding: 30px 50px;
+    gap: 30px;
+  }
+
+  .titleDepoimentos h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .depoimentosContent {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .depoimentosContent .cardDepoimento {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    padding: 20px 20px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento h3 {
+    font-size: 15px;
+  }
+
+  .cardDepoimento .sectionHeader .sectionNome .nomeDepoimento img {
+    width: 20px;
+  }
+  .empresaDepoimento p {
+    font-size: 14px;
+  }
+
+  .textDepoimento {
+    margin: 20px 0;
+  }
+
+  .textDepoimento p {
+    font-size: 14px;
+  }
+}

@@ -115,3 +115,27 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 520px) {
+  .aboutTwo h2 {
+    font-size: 20px;
+  }
+
+  .aboutTwo p {
+    font-size: 14px;
+  }
+  .aboutTwo .routeSobre a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .aboutTwo .routeSobre {
+    margin-top: 10px;
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #11a65f;
+    color: #fff;
+  }
+}

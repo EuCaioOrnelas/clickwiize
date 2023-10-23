@@ -108,3 +108,31 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 520px) {
+  .icons {
+    font-size: 22px;
+  }
+  .main {
+    padding: 0 50px;
+  }
+
+  .contentMain {
+    height: 350px;
+  }
+
+  .textTitle p {
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .title h1 {
+    font-size: 16px;
+  }
+
+  .routeAbout a {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}

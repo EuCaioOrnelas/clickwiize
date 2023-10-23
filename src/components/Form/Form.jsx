@@ -36,7 +36,7 @@ export default function Form() {
                 name="nome"
                 id="nome"
                 className="input"
-                placeholder="Qual seu nome e sobrenome?"
+                placeholder="Seu nome e sobrenome?"
               />
               <input
                 type="email"
@@ -71,14 +71,14 @@ export default function Form() {
                 name="funcionarios"
                 id="funcionarios"
                 className="input"
-                placeholder="Quantos funcionários você tem hoje?"
+                placeholder="Quantos funcionários você tem?"
               />
               <input
                 type="number"
                 name="faturamento"
                 id="faturamento"
                 className="input"
-                placeholder="Qual faturamento mensal da sua empresa?"
+                placeholder="Qual seu faturamento mensal?"
               />
 
               <button type="submit">receber consultoria gratuita</button>
