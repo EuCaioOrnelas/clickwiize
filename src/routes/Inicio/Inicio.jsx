@@ -36,7 +36,7 @@ export default function Inicio() {
             </h1>
           </div>
           <div className="routeAbout">
-            <a>
+            <a href="#about">
               <span>SAIBA MAIS</span>
               <MdKeyboardDoubleArrowDown size={25} />
             </a>
