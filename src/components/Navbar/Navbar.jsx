@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="navigation">
             <ul>
               <li>
-                <a href="">Inicio</a>
+                <a href="#">Inicio</a>
               </li>
               <li>
                 <a href="#servicos">Serviços</a>
@@ -45,16 +45,16 @@ export default function Navbar() {
       <div className="navigationMobile">
         <ul>
           <li>
-            <a href="">Inicio</a>
+            <a href="#">Inicio</a>
           </li>
           <li>
-            <a href="">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
           <li>
-            <a href="">Sobre Nós</a>
+            <a href="#about">Sobre Nós</a>
           </li>
           <li>
-            <a href="">Fale Conosco</a>
+            <a href="#contato">Fale Conosco</a>
           </li>
         </ul>
       </div>

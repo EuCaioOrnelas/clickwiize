@@ -161,7 +161,7 @@ export default function Inicio() {
             </p>
           </div>
           <div className="buttonForm">
-            <a href="#">Fale com um especialista</a>
+            <a href="#contato">Fale com um especialista</a>
             <AiOutlineArrowRight className="icons" />
           </div>
         </div>
