@@ -67,7 +67,7 @@ export default function Inicio() {
               lucro, EBITDA, ROI, e nos <strong>seus resultados anuais.</strong>
             </p>
             <div className="routeSobre">
-              <a href="#">Saiba mais</a>
+              <a href="#servicos">Saiba mais</a>
               <AiOutlineArrowRight className="icons" />
             </div>
           </div>
