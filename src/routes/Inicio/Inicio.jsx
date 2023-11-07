@@ -144,7 +144,7 @@ export default function Inicio() {
               title="YouTube video player"
               frameborder="0"
               poster=""
-              allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="autoplay;"
             ></iframe>
           </div>
           <div className="descriptVideo">
