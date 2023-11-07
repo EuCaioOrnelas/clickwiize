@@ -140,7 +140,7 @@ export default function Inicio() {
           </div>
           <div className="videoServices">
             <iframe
-              src="https://www.youtube.com/embed/thxpgVqUeqs?si=CKcl9sNhEILoNKdx&amp;controls=0"
+              src="https://www.youtube.com/embed/ib0pKI3iyCU?si=q-dl2cQ3y9qIl7m3&amp;controls=0"
               title="YouTube video player"
               frameborder="0"
               poster=""
@@ -203,10 +203,10 @@ export default function Inicio() {
             </div>
             <div className="textDepoimento">
               <p>
-                Com 2 semanas em parceria com a ClickWiize eu bati +1 mil novos
+                Com 2 semanas em parceria com a clickwiize eu bati +1 mil novos
                 usuarios em meu aplicativo, um crecimento 6x maior que o normal,
-                a click wiize fez exatamente o que prometia, me colocar acima
-                dos meus principais concorrentes.
+                a clickwiize fez exatamente o que prometia, me colocar acima dos
+                meus principais concorrentes.
               </p>
             </div>
           </div>
