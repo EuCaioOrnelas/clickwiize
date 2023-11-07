@@ -140,7 +140,7 @@ export default function Inicio() {
           </div>
           <div className="videoServices">
             <iframe
-              src="https://www.youtube.com/embed/ib0pKI3iyCU?si=q-dl2cQ3y9qIl7m3&amp;controls=0"
+              src="https://www.youtube.com/embed/ib0pKI3iyCU?si=q-dl2cQ3y9qIl7m3"
               title="YouTube video player"
               frameborder="0"
               poster=""
