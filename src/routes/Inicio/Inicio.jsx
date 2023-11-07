@@ -145,7 +145,6 @@ export default function Inicio() {
               frameborder="0"
               poster=""
               allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
           <div className="descriptVideo">
