@@ -140,11 +140,11 @@ export default function Inicio() {
           </div>
           <div className="videoServices">
             <iframe
-              src="https://www.youtube.com/embed/ib0pKI3iyCU?si=q-dl2cQ3y9qIl7m3&amp;"
+              src="https://www.youtube.com/embed/ib0pKI3iyCU?si=q-dl2cQ3y9qIl7m3&amp;controls=0"
               title="YouTube video player"
               frameborder="0"
               poster=""
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
