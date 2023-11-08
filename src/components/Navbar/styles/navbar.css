@@ -160,6 +160,14 @@ nav {
 }
 
 @media (max-width: 450px) {
+  .navbar {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-around;
+    height: 100px;
+    z-index: 1;
+  }
   .menu {
     width: 30px;
   }
