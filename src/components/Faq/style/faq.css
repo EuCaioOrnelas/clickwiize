@@ -193,3 +193,41 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 520px) {
+  .faqBackground {
+    padding: 30px 50px 70px 50px;
+    gap: 50px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .faq section {
+    gap: 30px;
+  }
+
+  .titleFaq h2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .faq summary {
+    font-size: 14px;
+  }
+  .faq summary:hover {
+    color: #11a65f;
+  }
+
+  .faq p {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 0 0;
+    font-size: 14px;
+  }
+}
