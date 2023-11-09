@@ -206,3 +206,35 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 415px) {
+  .titleServices h2 {
+    font-size: 23px;
+    width: 100%;
+  }
+
+  .videoServices iframe {
+    width: 290px;
+    height: 165px;
+  }
+
+  .descriptVideo {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .descriptVideo p {
+    font-size: 14px;
+  }
+
+  .buttonForm {
+    margin-top: 10px;
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .buttonForm a {
+    font-size: 14px;
+  }
+}
