@@ -49,7 +49,7 @@ export default function Inicio() {
         <div className="aboutContent">
           <div className="sectionOne">
             <img
-              src="https://i.im.ge/2023/10/04/NHUXDL.Design-sem-nome-2-removebg-preview.png"
+              src="https://i.im.ge/2023/12/31/xKksqM.Design-sem-nome-22-removebg-preview-1.png"
               alt="Image"
             />
           </div>

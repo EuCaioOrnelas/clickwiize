@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="sectionOne">
             <div className="logo">
               <img
-                src="https://i.im.ge/2023/10/04/Nf5w2f.ClickWiize-removebg-preview-1.png"
+                src="https://i.im.ge/2023/12/31/xKfolq.ClickWiize-6-removebg-preview.png"
                 alt="logo"
               />
             </div>

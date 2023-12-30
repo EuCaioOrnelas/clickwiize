@@ -104,7 +104,7 @@ export default function Beneficios() {
           </div>
           <div className="sectionCtaImg">
             <img
-              src="https://i.im.ge/2023/10/10/P0CEXm.click-15-1-1.png"
+              src="https://i.im.ge/2023/12/31/xKkaPY.click-18-1.png"
               alt="computador click wiize"
             />
           </div>

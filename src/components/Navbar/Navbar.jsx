@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav>
         <div className="navbar">
           <div className="logo">
-            <img src="https://i.im.ge/2023/10/04/Nf5w2f.ClickWiize-removebg-preview-1.png" />
+            <img src="https://i.im.ge/2023/12/31/xKfolq.ClickWiize-6-removebg-preview.png" />
           </div>
           <div className="navigation">
             <ul>
